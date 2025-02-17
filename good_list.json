@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Milk",
+    "number": "1",
+    "cost": 89
+  },
+  {
+    "name": "Bread",
+    "number": "2",
+    "cost": 35
+  },
+  {
+    "name": "Cheese",
+    "number": "3",
+    "cost": 249
+  },
+  {
+    "name": "Eggs",
+    "number": "4",
+    "cost": 79
+  },
+  {
+    "name": "Sausage",
+    "number": "5",
+    "cost": 459
+  },
+  {
+    "name": "Yogurt",
+    "number": "6",
+    "cost": 55
+  },
+  {
+    "name": "Tea",
+    "number": "7",
+    "cost": 129
+  },
+  {
+    "name": "Coffee",
+    "number": "8",
+    "cost": 99
+  },
+  {
+    "name": "Juice",
+    "number": "9",
+    "cost": 69
+  }
+]
