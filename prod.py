@@ -3,7 +3,7 @@
 
 import json
 
-with open('online_shop_task/good_list.json', 'r') as file:
+with open('/Users/sergey/Documents/GitHub/Online-Market/good_list.json', 'r') as file:
     goods = json.load(file)
 
 cart = []
@@ -29,7 +29,7 @@ def clean(cart, sum): # удаление товаров из корзины и �
     print("Cart is cleaned, current sum is:", sum)
     return(cart, sum)
 
-def pay(cart, sum): # функция красиво выводит на экран корзину и стоимость, а также завершает прогу
+def pay(cart, sum): # функция выводит на экран корзину и стоимость, а также завершает прогу
     print ("\t")
     for i, item in enumerate(cart):
         if i != len(cart) - 1:
@@ -62,6 +62,4 @@ while IsActiveSession == True: # алгоритм работы
     elif isGood == False and value.lower() == 'clean':
         cart, sum = clean(cart, sum)
     else:
-        continue  
-
-    # Saving changes test
+        continue 
