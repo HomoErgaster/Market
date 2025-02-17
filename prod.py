@@ -62,4 +62,4 @@ while IsActiveSession == True: # алгоритм работы
     elif isGood == False and value.lower() == 'clean':
         cart, sum = clean(cart, sum)
     else:
-        continue 
+        continue  
