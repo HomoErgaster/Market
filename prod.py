@@ -63,3 +63,5 @@ while IsActiveSession == True: # алгоритм работы
         cart, sum = clean(cart, sum)
     else:
         continue  
+
+    # Saving changes test
